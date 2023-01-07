@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<body>
+    <main>
+        <form>
+            <div>
+                <!-- Name Field -->
+                <label for="name">Name</label>
+                <div>
+                    <textarea id="name" type="text" name="name" rows="1" cols = "50"></textarea>
+                </div>
+            </div>
+            <p></p>
+            <div>
+                <!-- Email Field -->
+                <label for="email">Email</label>
+                <div>
+                    <textarea id="email" type = "text" name="email" rows="1" cols = "50"></textarea>
+                </div>
+            </div>
+            <p></p>
+            <div>
+                <!-- Message Field -->
+                <label for="message">Your message:</label>
+                <div>
+                    <textarea id="message" type ="text" name="message" rows="15" cols = "50"></textarea>
+                </div>
+                
+            </div>
+            <p></p>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
